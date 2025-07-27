@@ -7,7 +7,7 @@
   --font-main: "Roboto Mono", monospace;
   --font-alt: "Roboto", sans-serif;
   --header-height-desktop: 96px;
-  --header-height-mobile: 80px;
+  --header-height-mobile: 60px;
 }
 
 /* ==== base settings ==== */
@@ -147,7 +147,7 @@ body.loaded .page-loader {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - var(--header-height-desktop));
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 @media (min-height: 950px) {
